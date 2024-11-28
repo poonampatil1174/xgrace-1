@@ -1,4 +1,4 @@
-import React from 'react'
+ import React from 'react'
 
 const About = () => {
   return (
@@ -85,9 +85,30 @@ const About = () => {
           </div>
         </div>
       </div>
+
+      <br></br><br></br>
+      
+      <div className="container">
+          <h3 class="custom-heading">
+          <span class="text-orange me-2">★</span>Vision</h3>
+          <p className="fst-italic">  To deliver solutions that align with executive goals,
+             enabling leaders to achieve operational excellence and long-term vision.</p>
+
+             <h3 class="custom-heading">
+             <span class="text-orange me-2">★</span>Mission</h3>
+             <p className="fst-italic">  To set new benchmarks in the industry by executing every project with
+             precision, passion,  and commitment.</p>
+      </div>
+      
+
     </section>
    </>
   )
 }
 
-export default About
+export default About 
+
+
+
+
+
